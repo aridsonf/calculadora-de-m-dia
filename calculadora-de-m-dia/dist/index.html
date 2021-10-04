@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora de média</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title> Imersão Dev Alura - Aula 01</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de média</h1>
+    <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+    </p>
+  </div>
+  <div class="container">
+    <form>
+      <label for="nota1" class="page-subtitle">Seu nome:</label>
+      <input type="text" id="nomeAluno" name="nomeAluno" placeholder="Digite seu nome"><br><br><br>
+      <label for="nomeAluno" class="page-subtitle">Primeira nota:</label>
+      <input type="number" id="nota1" name="nota1" placeholder="Digite a nota" min="0" max="10" step="0.5" class="input_num" value="0"><br><br>
+      <label for="nota2" class="page-subtitle">Segunda nota:</label>
+      <input type="number" id="nota2" name="nota2" placeholder="Digite a nota" min="0" max="10" step="0.5" class="input_num" value="0"><br><br>
+      <label for="nota3" class="page-subtitle">Terceira nota:</label>
+      <input type="number" id="nota3" name="nota3" placeholder="Digite a nota" min="0" max="10" step="0.5" class="input_num" value="0"><br><br>
+      <input type="button" value="CALCULAR" onClick="calcmed(nomeAluno.value, nota1.value, nota2.value, nota3.value)" class="botao">
+      <div class="container" id="notas">
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
